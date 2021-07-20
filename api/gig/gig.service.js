@@ -31,32 +31,12 @@ async function getById(gigId) {
     try {
         const collection = await dbService.getCollection('gig')
         let gig = await collection.findOne({ '_id': ObjectId(gigId) })
-
-        // if (!toy.givenReviews) {
-        //     toy.givenReviews = await reviewService.query({ aboutToyId: ObjectId(toy._id) })
-        //     toy.givenReviews = toy.givenReviews.map(review => {
-        //         delete review.aboutToyId
-        //         return review
-        //     })
-        // }
-
         return gig
     } catch (err) {
         logger.error(`while finding gig ${gigId}`, err)
         throw err
     }
 }
-
-// async function getByGigUserName(name) {
-//     try {
-//         const collection = await dbService.getCollection('user')
-//         const user = await collection.findOne({ username })
-//         return user
-//     } catch (err) {
-//         logger.error(`while finding user ${username}`, err)
-//         throw err
-//     }
-// }
 
 async function remove(gigId) {
     try {
