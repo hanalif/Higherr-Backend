@@ -29,6 +29,7 @@ if (process.env.NODE_ENV === 'production') {
 const authRoutes = require('./api/auth/auth.routes')
 const userRoutes = require('./api/user/user.routes')
 const gigRoutes = require('./api/gig/gig.routes')
+const orderRoutes = require('./api/order/order.routes')
 const {connectSockets} = require('./services/socket.service')
 
 // routes
@@ -45,6 +46,7 @@ app.get('/api/setup-session', (req, res) =>{
 app.use('/api/auth', authRoutes)
 app.use('/api/user', userRoutes)
 app.use('/api/gig', gigRoutes)
+app.use('/api/order', orderRoutes)
 
 connectSockets(http, session)
 

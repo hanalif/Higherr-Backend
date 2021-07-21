@@ -1,6 +1,7 @@
 
 const dbService = require('../../services/db.service')
 const ObjectId = require('mongodb').ObjectId
+const logger = require('../../services/logger.service')
 
 module.exports = {
     query,
@@ -11,11 +12,12 @@ module.exports = {
     getByUserId
 }
 
-async function query(filterBy = {}) {
-    const criteria = _buildCriteria(filterBy)
+async function query() {
+    // filterBy = {}
+    // const criteria = _buildCriteria(filterBy)
     try {
         const collection = await dbService.getCollection('order')
-        var orders = await collection.find(criteria).toArray()
+        var orders = await collection.find().toArray()
         orders = orders.map(order => {
             return order
         })
@@ -31,13 +33,15 @@ async function getByUserId(loggedInUserId) {
         const collection = await dbService.getCollection('order')
         let userAsSellerOrders = await collection.find({ 'seller._id': loggedInUserId}).toArray()
         let userAsBuyerOrders = await collection.find({'buyer._id': loggedInUserId }).toArray()
-        return {userAsSellerOrders, userAsBuyerOrders }
+        return [ ...userAsSellerOrders, ...userAsBuyerOrders ]
 
     } catch (err) {
         logger.error(`while finding orders of user ${userId}`, err)
         throw err
     }
 }
+
+
 
 async function getById(orderId) {
     try {

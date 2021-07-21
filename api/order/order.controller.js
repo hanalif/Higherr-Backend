@@ -4,6 +4,8 @@ const utilService = require('../../services/util.service')
 const logger = require('../../services/logger.service')
 
 async function getOrder(req, res) {
+    const loggedInUserId  = req.session.user._id
+    console.log(loggedInUserId)
     try {
         const { orderId } = req.params
         const order = await orderService.getById(orderId)
@@ -14,20 +16,18 @@ async function getOrder(req, res) {
     }
 }
 
-async function getOrdersByloggedinUserId(req, res) {
-    try {
-        const { loggedInUserId } = req.session.user._id
-        const loggedinUserOrders = await orderService.getByUserId(loggedInUserId)
-        res.send(loggedinUserOrders)
-    } catch (err) {
-        logger.error('Failed to get loggedinUserOrders', err)
-        res.status(500).send({ err: 'Failed to get loggedinUserOrders' })
-    }
-}
-
-
 async function getOrders(req, res) {
+
     try {
+        const user = req.session.user;
+        let userId = user._id;
+        let orders;
+        if (user.isAdmin) {
+            orders = await orderService.query();
+        }
+        else {
+            orders = await orderService.getByUserId(userId);
+        }
         // const filterBy = {
         //     name: req.query.name || '',
         //     type: req.query.type || 'all',
@@ -36,7 +36,7 @@ async function getOrders(req, res) {
         //     type: req.query.type || 'all',
         //     isInStock: req.query.isInStock || null,
         // }
-        const orders = await orderService.query()
+
         res.send(orders)
     } catch (err) {
         logger.error('Failed to get orders', err)
@@ -107,5 +107,4 @@ module.exports = {
     deleteOrder,
     updateOrder,
     createOrder,
-    getOrdersByloggedinUserId
 }
