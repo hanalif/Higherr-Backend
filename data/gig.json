@@ -1,317 +1,315 @@
-
-[
+[{
+        "title": "I will create music with unlimited instruments in any style",
+        "imgUrls": [
+            "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ69Svv9n1P4SAtpSWIhlbsmfmPkofjjHGKvA&usqp=CAU",
+            "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQyGVLcL8EH0abXdF_XVjeRM8s4qV1UWJwndQ&usqp=CAU",
+            "https://musiccritic.com/wp/wp-content/uploads/2017/04/best-daw-recording-software.jpg"
+        ],
+        "price": 90.00,
+        "delivery": 10,
+        "summary": "musical edditing for your liking, in maximum 10 days. with instruments of your choosing.",
+        "jobDescription": "Over 8 years experience, I can produce any style you want and every genre you request.Feel free to contact me before placing the order and I will reply any questions.",
+        "tags": [
+            "media",
+            "music"
+        ],
+        "seller": {
+            "_id": "60f582738400e7f9f56df3f0",
+            "fullname": "Ronit Rozen",
+            "imgUrl": "https://i2-prod.mirror.co.uk/incoming/article14334083.ece/ALTERNATES/s615/3_Beautiful-girl-with-a-gentle-smile.jpg"
+        }
+    },
     {
-    "title": "I will create music with unlimited instruments in any style",
-    "imgUrls": [
-        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ69Svv9n1P4SAtpSWIhlbsmfmPkofjjHGKvA&usqp=CAU",
-       "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQyGVLcL8EH0abXdF_XVjeRM8s4qV1UWJwndQ&usqp=CAU",
-       "https://musiccritic.com/wp/wp-content/uploads/2017/04/best-daw-recording-software.jpg"
-    ],
-    "price": 90.00,
-    "delivery": 10,
-    "summary": "musical edditing for your liking, in maximum 10 days. with instruments of your choosing.",  
-    "jobDescription": "Over 8 years experience, I can produce any style you want and every genre you request.Feel free to contact me before placing the order and I will reply any questions.",
-    "tags": [
-        "media",
-        "music"
-    ],
-    "seller": {
-        "_id": "60f582738400e7f9f56df3f0",
-        "fullname": "Ronit Rozen",
-        "imgUrl": "https://i2-prod.mirror.co.uk/incoming/article14334083.ece/ALTERNATES/s615/3_Beautiful-girl-with-a-gentle-smile.jpg"
-    }
-},
-{
-    "title": "I will design your home interior and exterior",
-    "imgUrls": [
-       "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSItJSqhHESyzSoUWKiO2Psh8Ql_hOV0CInlg&usqp=CAU",
-       "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSYpn_UkBDJ-6p9KXrXKk5OcLTCX202gz2OfA&usqp=CAU",
-       "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2d/Bispingen_verr%C3%BCcktes_Haus_auf_dem_Kopf.jpg/1200px-Bispingen_verr%C3%BCcktes_Haus_auf_dem_Kopf.jpg"
-    ],
-    "price": 120.00,
-    "delivery": 16,
-    "summary": "Interior and/or exterior design with up to 5 revisions. Guaranteed delivery in 16 days.",
-    "jobDescription": "Hello, I am Davir Ronen Structural & Design Engineer in CECB ( Central Engineering Consultancy Bureau). Under this gig i design your dream home and provide you High Quality photo realistic Interior/Exterior render images. If you need more than that, i can provide you a video flythrough of your DREAM HOME also ...",
-    "tags": [
-        "home-design"
-    ],
-    "seller": {
-        "_id": "60f582738400e7f9f56df3f7",
-        "fullname": "Davir Ronen",
-        "imgUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSUIjt1729YRBsVKe30AwJ2rHv4nWJBrUxxsQ&usqp=CAU"
-    }
-},
-{
-    "title": "I will do custom order related to graphic design work",
-    "imgUrls": [
-       "https://www.pixelo.net/wp-content/uploads/2018/10/1934823-e1540532501723.jpg",
-       "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQhfbgspa1XrSRSB064jU-V0K6GOf8VyrIlcQ&usqp=CAU",
-       "https://elearningindustry.com/wp-content/uploads/2019/09/elearning-graphic-design-best-practices.jpg"
-    ],
-    "price": 55.00,
-    "delivery": 3,
-    "summary": "Fast graphic design job for web or mobile. Very fast delivery. 1 revision only.",
-    "jobDescription": "Message me first before ordering so we can discuss about this gig. In this gig $5 will do you basic, simple and nice editing, but for more complex editing the price will increase. We can discuss and agree about the price. The price will depend on how complex the graphic job.",
-    "tags": [
-        "graphic"
-    ],
-    "seller": {
-        "_id": "60f582738400e7f9f56df3f8",
-        "fullname": "Yuli Potalov",
-        "imgUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQGa_HSPmOuXZjwVPe3iRFse3_ev61GED0hTg&usqp=CAU"
-    }
-},
-{
-    "title": "I will design and develop a modern responsive wordpress website",
-    "imgUrls": [
-       "https://www.usnews.com/dims4/USNEWS/2cf9b0b/2147483647/crop/2000x1335%2B0%2B0/resize/300x300%3E/quality/85/?url=http%3A%2F%2Fmedia.beam.usnews.com%2F65%2F62%2Fc9cb60d24ac89d56462b1228574a%2F201009-codingcomputer-stock.jpg",
-       "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQfzDaybnxduCvnjXSvs34wtpfu6cb8QvXNLA&usqp=CAU",
-       "https://media.bitdegree.org/storage/media/images/2018/08/what-is-a-web-developer.jpg"
-    ],
-    "price": 180.00,
-    "delivery": 38,
-    "summary": "Fully reponsive Wordpress website with up to 5 pages. Constant contact between the seller and buyer for the whole proccess.",
-    "jobDescription": "Hello there, My name is Muki Levi, a Senior Web Developer in website development 24/7. Why choose me? I have experience with a large range of projects in Wordpress, including but not limited to a business website, blog, e-commerce, agency, directory listing, job portal, real estate and many more. I work with a focus on Standard, Aesthetics, and Professionalism to deliver the right product for your business.",
-    "tags": [
-        "web-develop"
-    ],
-    "seller": {
-        "_id": "60f582738400e7f9f56df3f9",
-        "fullname": "Muki Levi",
-        "imgUrl": "https://images.unsplash.com/photo-1542909168-82c3e7fdca5c?ixid=MnwxMjA3fDB8MHxzZWFyY2h8OXx8ZmFjZXxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&w=1000&q=80"
-    }
-},
-{
-    "title": "I will remove noise, wind, echo, repair and clean your audio",
-    "imgUrls": [
-       "https://i.pinimg.com/originals/56/9c/2f/569c2f5ae8b76f899c3552a146014816.png",
-       "https://www.adorama.com/alc/wp-content/uploads/2018/12/shutterstock_484405837-1024x614.jpg",
-       "https://buffer.com/library/content/images/library/wp-content/uploads/2017/09/13-Places-to-Find-Background-Music-for-Video-Cover-Image-2.jpg"
-    ],
-    "price": 87.00,
-    "delivery": 10,
-    "summary": "Sound edditing and background noise removal for your recording. Up to 5 minutes of sound, with 2 revisions.",
-    "jobDescription": "If your audio needs special repair, please send it to me before ordering to determine if I can help. If you are looking for a professional audio editor who works with industry-best tools, then let's talk about how I can help.",
-    "tags": [
-        "music",
-        "communication"
-    ],
-    "seller": {
-        "_id": "60f582738400e7f9f56df3fa",
-        "fullname": "Dana Lim",
-        "imgUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS2V0XCkHjYbLW3uy8osbkaWDGGOEuQnfJcuw&usqp=CAU"
-    }
-},
-{
-    "title": "I will be your professional video spokesperson",
-    "imgUrls": [
-       "https://cdn.pixabay.com/photo/2019/10/04/07/41/microphone-4525034_1280.jpg",
-       "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTyk6Ly4Fb7aZSnsCvef2r-A_vH6WMQ2bzm4g&usqp=CAU",
-       "https://cdn.arstechnica.net/wp-content/uploads/2020/09/robot-music.jpg"
-    ],
-    "price": 110.00,
-    "delivery": 5,
-    "summary": "A personal spokesperson for any video, Get personal Zoom meetings and work togther for the perfect video.",
-    "jobDescription": "I'm Roni and I'm available to be your video spokesperson. I have extensive spokesperson, acting and modeling experience. Work with a pro that can effectively communicate your message.",
-    "tags": [
-        "music",
-        "media",
-        "communication"
-    ],
-    "seller": {
-        "_id": "60f582738400e7f9f56df3ff",
-        "fullname": "Roni Ron",
-        "imgUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ2TRmnlIPn36w1HuBoXo7mreaRsINRXlhFWg&usqp=CAU"
-    }
-},
-{
-    "title": "I will design 3 modern minimalist logo design",
-    "imgUrls": [
-       "https://fiverr-res.cloudinary.com/images/q_auto,f_auto/gigs/23197467/original/7fe4f022a60d8c54335a09d1ed3ad86b86df63f6/design-an-impressive-logo.jpg",
-       "https://www.logodesign.net/images/illustration-logo.png",
-       "https://us.123rf.com/450wm/twindesigner/twindesigner1709/twindesigner170900091/86042541-a-brush-stroke-letter-logo-design-black-paint-logo-leters-icon-with-elegant-circle-vector-design-.jpg?ver=6"
-    ],
-    "price": 38.00,
-    "delivery": 4,
-    "summary": "3 logos for averything you want, 2 revisions included(note that the revisions are for all logos combined).",
-    "jobDescription": "This Gig is of one of many design kinds we offer. Flat design concepts are one of our fortes. For the logo to be timeless it doesn’t need to be with complex structures or patterns. It just needs to be simple, memorable and which gives a distinctive essence to your business",
-    "tags": [
-        "logo-design",
-        "media"
-    ],
-    "seller": {
-        "_id": "60f582738400e7f9f56df3fb",
-        "fullname": "Clode Deli",
-        "imgUrl": "https://i0.wp.com/post.medicalnewstoday.com/wp-content/uploads/sites/3/2020/03/GettyImages-1092658864_hero-1024x575.jpg?w=1155&h=1528"
-    }
-},
+        "title": "I will design your home interior and exterior",
+        "imgUrls": [
+            "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSItJSqhHESyzSoUWKiO2Psh8Ql_hOV0CInlg&usqp=CAU",
+            "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSYpn_UkBDJ-6p9KXrXKk5OcLTCX202gz2OfA&usqp=CAU",
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2d/Bispingen_verr%C3%BCcktes_Haus_auf_dem_Kopf.jpg/1200px-Bispingen_verr%C3%BCcktes_Haus_auf_dem_Kopf.jpg"
+        ],
+        "price": 120.00,
+        "delivery": 16,
+        "summary": "Interior and/or exterior design with up to 5 revisions. Guaranteed delivery in 16 days.",
+        "jobDescription": "Hello, I am Davir Ronen Structural & Design Engineer in CECB ( Central Engineering Consultancy Bureau). Under this gig i design your dream home and provide you High Quality photo realistic Interior/Exterior render images. If you need more than that, i can provide you a video flythrough of your DREAM HOME also ...",
+        "tags": [
+            "home-design"
+        ],
+        "seller": {
+            "_id": "60f582738400e7f9f56df3f7",
+            "fullname": "Davir Ronen",
+            "imgUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSUIjt1729YRBsVKe30AwJ2rHv4nWJBrUxxsQ&usqp=CAU"
+        }
+    },
+    {
+        "title": "I will do custom order related to graphic design work",
+        "imgUrls": [
+            "https://www.pixelo.net/wp-content/uploads/2018/10/1934823-e1540532501723.jpg",
+            "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQhfbgspa1XrSRSB064jU-V0K6GOf8VyrIlcQ&usqp=CAU",
+            "https://elearningindustry.com/wp-content/uploads/2019/09/elearning-graphic-design-best-practices.jpg"
+        ],
+        "price": 55.00,
+        "delivery": 3,
+        "summary": "Fast graphic design job for web or mobile. Very fast delivery. 1 revision only.",
+        "jobDescription": "Message me first before ordering so we can discuss about this gig. In this gig $5 will do you basic, simple and nice editing, but for more complex editing the price will increase. We can discuss and agree about the price. The price will depend on how complex the graphic job.",
+        "tags": [
+            "graphic"
+        ],
+        "seller": {
+            "_id": "60f582738400e7f9f56df3f8",
+            "fullname": "Yuli Potalov",
+            "imgUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQGa_HSPmOuXZjwVPe3iRFse3_ev61GED0hTg&usqp=CAU"
+        }
+    },
+    {
+        "title": "I will design and develop a modern responsive wordpress website",
+        "imgUrls": [
+            "https://www.usnews.com/dims4/USNEWS/2cf9b0b/2147483647/crop/2000x1335%2B0%2B0/resize/300x300%3E/quality/85/?url=http%3A%2F%2Fmedia.beam.usnews.com%2F65%2F62%2Fc9cb60d24ac89d56462b1228574a%2F201009-codingcomputer-stock.jpg",
+            "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQfzDaybnxduCvnjXSvs34wtpfu6cb8QvXNLA&usqp=CAU",
+            "https://media.bitdegree.org/storage/media/images/2018/08/what-is-a-web-developer.jpg"
+        ],
+        "price": 180.00,
+        "delivery": 38,
+        "summary": "Fully reponsive Wordpress website with up to 5 pages. Constant contact between the seller and buyer for the whole proccess.",
+        "jobDescription": "Hello there, My name is Muki Levi, a Senior Web Developer in website development 24/7. Why choose me? I have experience with a large range of projects in Wordpress, including but not limited to a business website, blog, e-commerce, agency, directory listing, job portal, real estate and many more. I work with a focus on Standard, Aesthetics, and Professionalism to deliver the right product for your business.",
+        "tags": [
+            "web-develop"
+        ],
+        "seller": {
+            "_id": "60f582738400e7f9f56df3f9",
+            "fullname": "Muki Levi",
+            "imgUrl": "https://images.unsplash.com/photo-1542909168-82c3e7fdca5c?ixid=MnwxMjA3fDB8MHxzZWFyY2h8OXx8ZmFjZXxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&w=1000&q=80"
+        }
+    },
+    {
+        "title": "I will remove noise, wind, echo, repair and clean your audio",
+        "imgUrls": [
+            "https://i.pinimg.com/originals/56/9c/2f/569c2f5ae8b76f899c3552a146014816.png",
+            "https://www.adorama.com/alc/wp-content/uploads/2018/12/shutterstock_484405837-1024x614.jpg",
+            "https://buffer.com/library/content/images/library/wp-content/uploads/2017/09/13-Places-to-Find-Background-Music-for-Video-Cover-Image-2.jpg"
+        ],
+        "price": 87.00,
+        "delivery": 10,
+        "summary": "Sound edditing and background noise removal for your recording. Up to 5 minutes of sound, with 2 revisions.",
+        "jobDescription": "If your audio needs special repair, please send it to me before ordering to determine if I can help. If you are looking for a professional audio editor who works with industry-best tools, then let's talk about how I can help.",
+        "tags": [
+            "music",
+            "communication"
+        ],
+        "seller": {
+            "_id": "60f582738400e7f9f56df3fa",
+            "fullname": "Dana Lim",
+            "imgUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS2V0XCkHjYbLW3uy8osbkaWDGGOEuQnfJcuw&usqp=CAU"
+        }
+    },
+    {
+        "title": "I will be your professional video spokesperson",
+        "imgUrls": [
+            "https://cdn.pixabay.com/photo/2019/10/04/07/41/microphone-4525034_1280.jpg",
+            "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTyk6Ly4Fb7aZSnsCvef2r-A_vH6WMQ2bzm4g&usqp=CAU",
+            "https://cdn.arstechnica.net/wp-content/uploads/2020/09/robot-music.jpg"
+        ],
+        "price": 110.00,
+        "delivery": 5,
+        "summary": "A personal spokesperson for any video, Get personal Zoom meetings and work togther for the perfect video.",
+        "jobDescription": "I'm Roni and I'm available to be your video spokesperson. I have extensive spokesperson, acting and modeling experience. Work with a pro that can effectively communicate your message.",
+        "tags": [
+            "music",
+            "media",
+            "communication"
+        ],
+        "seller": {
+            "_id": "60f582738400e7f9f56df3ff",
+            "fullname": "Roni Ron",
+            "imgUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ2TRmnlIPn36w1HuBoXo7mreaRsINRXlhFWg&usqp=CAU"
+        }
+    },
+    {
+        "title": "I will design 3 modern minimalist logo design",
+        "imgUrls": [
+            "https://fiverr-res.cloudinary.com/images/q_auto,f_auto/gigs/23197467/original/7fe4f022a60d8c54335a09d1ed3ad86b86df63f6/design-an-impressive-logo.jpg",
+            "https://www.logodesign.net/images/illustration-logo.png",
+            "https://us.123rf.com/450wm/twindesigner/twindesigner1709/twindesigner170900091/86042541-a-brush-stroke-letter-logo-design-black-paint-logo-leters-icon-with-elegant-circle-vector-design-.jpg?ver=6"
+        ],
+        "price": 38.00,
+        "delivery": 4,
+        "summary": "3 logos for averything you want, 2 revisions included(note that the revisions are for all logos combined).",
+        "jobDescription": "This Gig is of one of many design kinds we offer. Flat design concepts are one of our fortes. For the logo to be timeless it doesn’t need to be with complex structures or patterns. It just needs to be simple, memorable and which gives a distinctive essence to your business",
+        "tags": [
+            "logo-design",
+            "media"
+        ],
+        "seller": {
+            "_id": "60f582738400e7f9f56df3fb",
+            "fullname": "Clode Deli",
+            "imgUrl": "https://i0.wp.com/post.medicalnewstoday.com/wp-content/uploads/sites/3/2020/03/GettyImages-1092658864_hero-1024x575.jpg?w=1155&h=1528"
+        }
+    },
 
-{
-    "title": "I will do creative unique minimalist business logo design",
-    "imgUrls": [
-       "https://www.aabhishek.com/wp-content/uploads/2020/01/Visa-Company-Logo-Oci-Visa-Center-Logo-Logo-Design-company-USA-London-India-Dubai.jpg",
-       "https://cdn.shopify.com/s/files/1/1095/6418/files/3d_logo_sample_1024x1024.png?v=1588066397",
-       "https://www.designfreelogoonline.com/wp-content/uploads/2018/09/3D-Logo-online-logos.jpg"
-    ],
-    "price": 65.00,
-    "delivery": 5,
-    "summary": "A unique and minimalist logo for your buisness. delivery in 5 days, 2 revisions included.",
-    "jobDescription": "I am a professional and Unique, creative logo design service provider, offering 100% original and conceptual layout solutions for businesses of varying sizes. The creativity of your work will be the true representative of your business and natch its nature and standard.",
-    "tags": [
-        "logo-design",
-        "media"
-    ],
-    "seller": {
-        "_id": "60f582738400e7f9f56df3fc",
-        "fullname": "Mike Din",
-        "imgUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTl-gsRmxFQGy_0ciXHr-rwvWjvrV1EeBGmgQ&usqp=CAU"
-    }
-},
-{
-    "title": "Our Studio will design unique company logo and business cards",
-    "imgUrls": [
-       "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRjNrkajecqwyp_UIi0n7_nCdBUm-O3-wS5cg&usqp=CAU",
-       "https://d3re0f381bckq9.cloudfront.net/31789585_1483432297-55590-1-1_536x335.jpg",
-       "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRP9dhjHvMBDSS64A47P_GJoVI2Vmtf9SlNuw&usqp=CAU"
-    ],
-    "price": 89.00,
-    "delivery": 7,
-    "summary": "Logo design for company or buisness. buisness cards for up to 3 people inside the company. 1 week fast delivery.", 
-    "jobDescription": "we are a professional design team having more than 5 years of experience. So are creating modern and minimal logos with Business card And Stationery with this gig. ",
-    "tags": [
-        "logo-design",
-        "media"
-    ],
-    "seller": {
-       "_id": "60f582738400e7f9f56df3fd",
-        "fullname": "Jack Kob",
-        "imgUrl": "https://images.unsplash.com/photo-1542909168-82c3e7fdca5c?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTN8fGZhY2VzfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&w=1000&q=80"
-    }
-},
+    {
+        "title": "I will do creative unique minimalist business logo design",
+        "imgUrls": [
+            "https://www.aabhishek.com/wp-content/uploads/2020/01/Visa-Company-Logo-Oci-Visa-Center-Logo-Logo-Design-company-USA-London-India-Dubai.jpg",
+            "https://cdn.shopify.com/s/files/1/1095/6418/files/3d_logo_sample_1024x1024.png?v=1588066397",
+            "https://www.designfreelogoonline.com/wp-content/uploads/2018/09/3D-Logo-online-logos.jpg"
+        ],
+        "price": 65.00,
+        "delivery": 5,
+        "summary": "A unique and minimalist logo for your buisness. delivery in 5 days, 2 revisions included.",
+        "jobDescription": "I am a professional and Unique, creative logo design service provider, offering 100% original and conceptual layout solutions for businesses of varying sizes. The creativity of your work will be the true representative of your business and natch its nature and standard.",
+        "tags": [
+            "logo-design",
+            "media"
+        ],
+        "seller": {
+            "_id": "60f582738400e7f9f56df3fc",
+            "fullname": "Mike Din",
+            "imgUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTl-gsRmxFQGy_0ciXHr-rwvWjvrV1EeBGmgQ&usqp=CAU"
+        }
+    },
+    {
+        "title": "Our Studio will design unique company logo and business cards",
+        "imgUrls": [
+            "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRjNrkajecqwyp_UIi0n7_nCdBUm-O3-wS5cg&usqp=CAU",
+            "https://d3re0f381bckq9.cloudfront.net/31789585_1483432297-55590-1-1_536x335.jpg",
+            "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRP9dhjHvMBDSS64A47P_GJoVI2Vmtf9SlNuw&usqp=CAU"
+        ],
+        "price": 89.00,
+        "delivery": 7,
+        "summary": "Logo design for company or buisness. buisness cards for up to 3 people inside the company. 1 week fast delivery.",
+        "jobDescription": "we are a professional design team having more than 5 years of experience. So are creating modern and minimal logos with Business card And Stationery with this gig. ",
+        "tags": [
+            "logo-design",
+            "media"
+        ],
+        "seller": {
+            "_id": "60f582738400e7f9f56df3fd",
+            "fullname": "Jack Kob",
+            "imgUrl": "https://images.unsplash.com/photo-1542909168-82c3e7fdca5c?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTN8fGZhY2VzfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&w=1000&q=80"
+        }
+    },
 
-{
-    "title": "I will design and render the home that you want,interior or exterior, 3d visualization",
-    "imgUrls": [
-       "https://mccoymart.com/post/wp-content/uploads/2020/03/Home-Design-and-Plans-According-to-Vastu-Shastra.jpg",
-       "https://www.buildingplanner.in/images/ready-plans/34N1001.jpg",
-       "https://www.decoraid.com/wp-content/uploads/2018/07/Luxurious-interior-design-living-room-and-fireplace-in-a-beautiful-house-scaled.jpeg"
-    ],
-    "price": 270.00,
-    "delivery": 15,
-    "summary": "3D visualization for enterior or exterior design of your home. 15 days and you can have your desired home.",
-    "jobDescription": "PLEASE CONTACT BEFORE PLACE AN ORDER, so we can discuss more about the time frame and price. Dear Client, I am experienced architecture and interior 3D designer. I can do the design, 2d plans and elevations for the building you want.I make photo-realistic renders using 3ds Max,Corona, Vray and Photoshop. I will determine your goals and requirements of the project, make interior spaces functional, and beautiful by solving space requirements and selecting decorative items, such as colors, materials, lighting, furniture, wall finishes and flooring. I use my sense of style, to develop designs that look great and are aesthetically pleasing. I can strongly assure you that I will be able to provide you according to your desire, taking care of all of the details for you.",
-    "tags": [
-        "home-design"
-    ],
-    "seller": {
-        "_id": "60f582738400e7f9f56df3fe",
-        "fullname": "Rita Costa",
-        "imgUrl": "https://mymodernmet.com/wp/wp-content/uploads/2019/09/100k-ai-faces-7.jpg"
-    }
-},
-{
-    "title": "I will provide custom home design package",
-    "imgUrls": [
-       "https://cdn.vox-cdn.com/thumbor/qgQrZikp7XSdns41hyhNTXypgDA=/0x0:4560x3300/1200x800/filters:focal(1916x1286:2644x2014)/cdn.vox-cdn.com/uploads/chorus_image/image/60077225/House_Calls_Brooklyn_Zames_Williams_living_room_2_Matthew_Williams.0.jpg",
-       "https://res.cloudinary.com/markalexanderdesigncloudinary/auto-cloud/2019/02/MA-Home-Artistry-01-tablet.jpg",
-       "https://d1cfnnhb7hbym9.cloudfront.net/dist/images/big-plan-3D.fc5936b7aba050e0e541463743495aa0.png"
-    ],
-    "price": 230.00,
-    "delivery": 21,
-    "sumarry": "An all inclusive custom package for your home. Interior and exterior design included. Multiple revisions.",
-    "jobDescription": "I am a skilled, Architect with +12 years of experience in residential building projects and 3D BIM Models. I am also a Revit Certified Professional and a Black belted 3D Design Coordinator. I have delivered numerous mega projects within various countries including USA, Canada, Middle East and Gulf. I firmly believe my key-skill is that I pay attention to details and always prioritize quality.",
-    "tags": [
-        "home-design"
-    ],
-    "seller": {
-        "_id": "60f582738400e7f9f56df3f6",
-        "fullname": "Koby Daniel",
-        "imgUrl": "https://cdn.visioncenter.org/wp-content/uploads/2020/09/round-face-shape-wayfarers-1024x1024.jpg"
-    }
-},
-{
-    "title": "I will design flyer, poster, postcard or any other graphics",
-    "imgUrls": [
-       "https://gripdesign.com/wp-content/uploads/2020/04/IMG_4022-copy.jpg",
-       "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQjQNrObIvEddkkrpJV1n8xndWg-jFzkUe4ew&usqp=CAU",
-       "https://media.istockphoto.com/vectors/graphic-designer-creating-his-artwork-vector-flat-isometric-vector-id1243522179?k=6&m=1243522179&s=612x612&w=0&h=I2ulLN6LQets2ZVLi4zxLgWYZgrGdweiPo9TwHPnw2A="
-    ],
-    "price": 119.00,
-    "delivery": 6,
-    "summary": "Poster/Flyer/Postcard design for any need. fast delivery and professional look.", 
-    "jobDescription": "Hi, I’m Sol, professionally trained graphic designer talent. I’ve already completed thousands of orders here on Fiverr with 5-star reviews. That’s because I produce  high quality graphics that are ready for you to use and provide excellent customer service. Looking for a professionally designed Flyer to promote your product, business or anything you want ?",
-    "tags": [
-        "graphic"
-    ],
-    "seller": {
-        "_id": "60f582738400e7f9f56df3f5",
-        "fullname": "Sol Tick",
-        "imgUrl": "https://i0.wp.com/www.hadviser.com/wp-content/uploads/2019/04/16-medium-hairstyle-with-blonde-ombre-and-bangs-9RumfSs4PX.jpg?resize=1010%2C1010&ssl=1"
-    }
-},
+    {
+        "title": "I will design and render the home that you want,interior or exterior, 3d visualization",
+        "imgUrls": [
+            "https://mccoymart.com/post/wp-content/uploads/2020/03/Home-Design-and-Plans-According-to-Vastu-Shastra.jpg",
+            "https://www.buildingplanner.in/images/ready-plans/34N1001.jpg",
+            "https://www.decoraid.com/wp-content/uploads/2018/07/Luxurious-interior-design-living-room-and-fireplace-in-a-beautiful-house-scaled.jpeg"
+        ],
+        "price": 270.00,
+        "delivery": 15,
+        "summary": "3D visualization for enterior or exterior design of your home. 15 days and you can have your desired home.",
+        "jobDescription": "PLEASE CONTACT BEFORE PLACE AN ORDER, so we can discuss more about the time frame and price. Dear Client, I am experienced architecture and interior 3D designer. I can do the design, 2d plans and elevations for the building you want.I make photo-realistic renders using 3ds Max,Corona, Vray and Photoshop. I will determine your goals and requirements of the project, make interior spaces functional, and beautiful by solving space requirements and selecting decorative items, such as colors, materials, lighting, furniture, wall finishes and flooring. I use my sense of style, to develop designs that look great and are aesthetically pleasing. I can strongly assure you that I will be able to provide you according to your desire, taking care of all of the details for you.",
+        "tags": [
+            "home-design"
+        ],
+        "seller": {
+            "_id": "60f582738400e7f9f56df3fe",
+            "fullname": "Rita Costa",
+            "imgUrl": "https://mymodernmet.com/wp/wp-content/uploads/2019/09/100k-ai-faces-7.jpg"
+        }
+    },
+    {
+        "title": "I will provide custom home design package",
+        "imgUrls": [
+            "https://cdn.vox-cdn.com/thumbor/qgQrZikp7XSdns41hyhNTXypgDA=/0x0:4560x3300/1200x800/filters:focal(1916x1286:2644x2014)/cdn.vox-cdn.com/uploads/chorus_image/image/60077225/House_Calls_Brooklyn_Zames_Williams_living_room_2_Matthew_Williams.0.jpg",
+            "https://res.cloudinary.com/markalexanderdesigncloudinary/auto-cloud/2019/02/MA-Home-Artistry-01-tablet.jpg",
+            "https://d1cfnnhb7hbym9.cloudfront.net/dist/images/big-plan-3D.fc5936b7aba050e0e541463743495aa0.png"
+        ],
+        "price": 230.00,
+        "delivery": 21,
+        "sumarry": "An all inclusive custom package for your home. Interior and exterior design included. Multiple revisions.",
+        "jobDescription": "I am a skilled, Architect with +12 years of experience in residential building projects and 3D BIM Models. I am also a Revit Certified Professional and a Black belted 3D Design Coordinator. I have delivered numerous mega projects within various countries including USA, Canada, Middle East and Gulf. I firmly believe my key-skill is that I pay attention to details and always prioritize quality.",
+        "tags": [
+            "home-design"
+        ],
+        "seller": {
+            "_id": "60f582738400e7f9f56df3f6",
+            "fullname": "Koby Daniel",
+            "imgUrl": "https://cdn.visioncenter.org/wp-content/uploads/2020/09/round-face-shape-wayfarers-1024x1024.jpg"
+        }
+    },
+    {
+        "title": "I will design flyer, poster, postcard or any other graphics",
+        "imgUrls": [
+            "https://gripdesign.com/wp-content/uploads/2020/04/IMG_4022-copy.jpg",
+            "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQjQNrObIvEddkkrpJV1n8xndWg-jFzkUe4ew&usqp=CAU",
+            "https://media.istockphoto.com/vectors/graphic-designer-creating-his-artwork-vector-flat-isometric-vector-id1243522179?k=6&m=1243522179&s=612x612&w=0&h=I2ulLN6LQets2ZVLi4zxLgWYZgrGdweiPo9TwHPnw2A="
+        ],
+        "price": 119.00,
+        "delivery": 6,
+        "summary": "Poster/Flyer/Postcard design for any need. fast delivery and professional look.",
+        "jobDescription": "Hi, I’m Sol, professionally trained graphic designer talent. I’ve already completed thousands of orders here on Fiverr with 5-star reviews. That’s because I produce  high quality graphics that are ready for you to use and provide excellent customer service. Looking for a professionally designed Flyer to promote your product, business or anything you want ?",
+        "tags": [
+            "graphic"
+        ],
+        "seller": {
+            "_id": "60f582738400e7f9f56df3f5",
+            "fullname": "Sol Tick",
+            "imgUrl": "https://i0.wp.com/www.hadviser.com/wp-content/uploads/2019/04/16-medium-hairstyle-with-blonde-ombre-and-bangs-9RumfSs4PX.jpg?resize=1010%2C1010&ssl=1"
+        }
+    },
 
-{
-    "title": "I will be your killer graphic designer and photo manipulation",
-    "imgUrls": [
-       "https://fiverr-res.cloudinary.com/images/t_main1,q_auto,f_auto,q_auto,f_auto/gigs/100616304/original/dadefa1a2630f939d771ab114da5381dd9b6eb22/create-any-kind-of-graphic-design-with-idea.jpg",
-       "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTEO9TrsL6xp0UeCfKqjCwg3ACOuLYSj9aYuA&usqp=CAU",
-       "https://www.designindaba.com/sites/default/files/node/news/25070/thulasizwe-mamba-interview-201900021012still008.jpg"
-    ],
-    "price": 189.00,
-    "delivery": 9,
-    "summary": "Graphic design and photo manipulation, Up to a whole album of maximum 60 photos. With all inclusize design for each photo.",
-    "jobDescription": "Perfect Place for your any graphic design Needs! I'll do any graphic design or photoshop work in 24 hours for you! Low on budget? but want High Quality work? then this GIG is just for you! Flyers, Google Ads, Website images, Portrait, vector designs, business cards, social media graphics,Product Photos: for Amazon, eBay (& for any other platform you need)",
-    "tags": [
-        "graphic"
-    ],
-    "seller": {
-        "_id": "60f582738400e7f9f56df3f3",
-        "fullname": "Yacky Rock",
-        "imgUrl": "https://i.pinimg.com/originals/00/a5/9c/00a59c194e16fbb7b48fce55a51f9872.jpg"
-    }
-},
-{
-    "title": "I will develop desktop applications, bots, web scrapers with python",
-    "imgUrls": [
-       "https://www.motocms.com/blog/wp-content/uploads/2019/11/how-to-become-a-web-developer.jpg",
-       "https://media.licdn.cn/dms/image/C561BAQGpxRlo9gp3cQ/company-background_10000/0/1548686474966?e=2159024400&v=beta&t=kc7MUYbXutHt2pvcb6ljpEcvhyp7jMLZf_OlSEnuh0M",
-       "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRtd7FkQ4DUKEHWDKiJehD8zN2r-Zdu-r0O-g&usqp=CAU"
-    ],
-    "price": 289.00,
-    "delivery": 31,
-    "summary": "A fully functioning desktop application created with python. Multiple revisions included and fluent workflow for the whole 1 month proccess.",
-    "jobDescription": "Hi I am a Computer Science Engineering degree holder with more than 4 years of experience in python. I have completed a huge number of python related projects using various python libraries.",
-    "tags": [
-        "web-develop"
-    ],
-    "seller": {
-        "_id": "60f582738400e7f9f56df3f2",
-        "fullname": "Roi Siko",
-        "imgUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTFlg13K7pmpCud99-WnIFi-5GoiFcjp4i3yQr98MPmG984ACibH8KKKjoE1Y6uYiJqArA&usqp=CAU"
-    }
-},
+    {
+        "title": "I will be your killer graphic designer and photo manipulation",
+        "imgUrls": [
+            "https://fiverr-res.cloudinary.com/images/t_main1,q_auto,f_auto,q_auto,f_auto/gigs/100616304/original/dadefa1a2630f939d771ab114da5381dd9b6eb22/create-any-kind-of-graphic-design-with-idea.jpg",
+            "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTEO9TrsL6xp0UeCfKqjCwg3ACOuLYSj9aYuA&usqp=CAU",
+            "https://www.designindaba.com/sites/default/files/node/news/25070/thulasizwe-mamba-interview-201900021012still008.jpg"
+        ],
+        "price": 189.00,
+        "delivery": 9,
+        "summary": "Graphic design and photo manipulation, Up to a whole album of maximum 60 photos. With all inclusize design for each photo.",
+        "jobDescription": "Perfect Place for your any graphic design Needs! I'll do any graphic design or photoshop work in 24 hours for you! Low on budget? but want High Quality work? then this GIG is just for you! Flyers, Google Ads, Website images, Portrait, vector designs, business cards, social media graphics,Product Photos: for Amazon, eBay (& for any other platform you need)",
+        "tags": [
+            "graphic"
+        ],
+        "seller": {
+            "_id": "60f582738400e7f9f56df3f3",
+            "fullname": "Yacky Rock",
+            "imgUrl": "https://i.pinimg.com/originals/00/a5/9c/00a59c194e16fbb7b48fce55a51f9872.jpg"
+        }
+    },
+    {
+        "title": "I will develop desktop applications, bots, web scrapers with python",
+        "imgUrls": [
+            "https://www.motocms.com/blog/wp-content/uploads/2019/11/how-to-become-a-web-developer.jpg",
+            "https://media.licdn.cn/dms/image/C561BAQGpxRlo9gp3cQ/company-background_10000/0/1548686474966?e=2159024400&v=beta&t=kc7MUYbXutHt2pvcb6ljpEcvhyp7jMLZf_OlSEnuh0M",
+            "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRtd7FkQ4DUKEHWDKiJehD8zN2r-Zdu-r0O-g&usqp=CAU"
+        ],
+        "price": 289.00,
+        "delivery": 31,
+        "summary": "A fully functioning desktop application created with python. Multiple revisions included and fluent workflow for the whole 1 month proccess.",
+        "jobDescription": "Hi I am a Computer Science Engineering degree holder with more than 4 years of experience in python. I have completed a huge number of python related projects using various python libraries.",
+        "tags": [
+            "web-develop"
+        ],
+        "seller": {
+            "_id": "60f582738400e7f9f56df3f2",
+            "fullname": "Roi Siko",
+            "imgUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTFlg13K7pmpCud99-WnIFi-5GoiFcjp4i3yQr98MPmG984ACibH8KKKjoE1Y6uYiJqArA&usqp=CAU"
+        }
+    },
 
 
 
-{
-    "title": "I will do custom web design and webflow development",
-    "imgUrls": [
-       "https://axiomq.com/wp-content/uploads/2020/05/developer-3.jpg",
-       "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRwz9oHAJQmy48cNDzrRPQA_RFCCXYCZsqvjw&usqp=CAU",
-       "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT-WK3SgDNPcffVrnIXiAxnVBNvKTkesmXBJA&usqp=CAU"
-    ],
-    "price": 350.00,
-    "delivery": 22,
-    "summary": "Web design and development customized to your liking. Personal revisions all along the way. 100% satisfaction gauranteed.",
-    "jobDescription": "I design and build only custom websites with attention to your customers' needs. I strive for minimal aesthetics and modern visuals but make it easy to use. I don't use templates and don't do fast design.",
-    "tags": [
-        "web-develop"
-    ],
-    "seller": {
-        "_id": "60f582738400e7f9f56df3f1",
-        "fullname": "Homer Lager",
-        "imgUrl": "https://i.pinimg.com/originals/d7/c1/de/d7c1dedd54b2db6b9eda7b5f0d0a1faa.jpg"
+    {
+        "title": "I will do custom web design and webflow development",
+        "imgUrls": [
+            "https://axiomq.com/wp-content/uploads/2020/05/developer-3.jpg",
+            "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRwz9oHAJQmy48cNDzrRPQA_RFCCXYCZsqvjw&usqp=CAU",
+            "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT-WK3SgDNPcffVrnIXiAxnVBNvKTkesmXBJA&usqp=CAU"
+        ],
+        "price": 350.00,
+        "delivery": 22,
+        "summary": "Web design and development customized to your liking. Personal revisions all along the way. 100% satisfaction gauranteed.",
+        "jobDescription": "I design and build only custom websites with attention to your customers' needs. I strive for minimal aesthetics and modern visuals but make it easy to use. I don't use templates and don't do fast design.",
+        "tags": [
+            "web-develop"
+        ],
+        "seller": {
+            "_id": "60f582738400e7f9f56df3f1",
+            "fullname": "Homer Lager",
+            "imgUrl": "https://i.pinimg.com/originals/d7/c1/de/d7c1dedd54b2db6b9eda7b5f0d0a1faa.jpg"
+        }
     }
-}
 
 ]
