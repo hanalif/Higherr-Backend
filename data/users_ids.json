@@ -1,9 +1,8 @@
-[
-    {
+[{
         "Roni Ron": "60f582738400e7f9f56df3ff"
     },
     {
-      "Rita Costa": "60f582738400e7f9f56df3fe" 
+        "Rita Costa": "60f582738400e7f9f56df3fe"
     },
     {
         "Jack Kob": "60f582738400e7f9f56df3fd"
@@ -12,7 +11,7 @@
         "Mike Din": "60f582738400e7f9f56df3fc"
     },
     {
-        "Clode Deli" : "60f582738400e7f9f56df3fb"
+        "Clode Deli": "60f582738400e7f9f56df3fb"
     },
     {
         "Dana Lim": "60f582738400e7f9f56df3fa"
@@ -24,13 +23,13 @@
         "Yuli Potalov": "60f582738400e7f9f56df3f8"
     },
     {
-        "Davir Ronen" : "60f582738400e7f9f56df3f7"
+        "Davir Ronen": "60f582738400e7f9f56df3f7"
     },
     {
-        "Koby Daniel" : "60f582738400e7f9f56df3f6"
+        "Koby Daniel": "60f582738400e7f9f56df3f6"
     },
     {
-        "Sol Tick" : "60f582738400e7f9f56df3f5"
+        "Sol Tick": "60f582738400e7f9f56df3f5"
     },
     {
         "Miki Tick": "60f582738400e7f9f56df3f4"
@@ -45,8 +44,6 @@
         "Homer Lager": "60f582738400e7f9f56df3f1"
     },
     {
-        "Ronit Rozen" : "60f582738400e7f9f56df3f0"
+        "Ronit Rozen": "60f582738400e7f9f56df3f0"
     }
-
-
 ]
