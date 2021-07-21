@@ -61,7 +61,7 @@ async function createOrder(req, res){
         const order = {
             title,
             status,
-            createdAt: new Date(),
+            createdAt,
             price,
             buyer,
             seller,
@@ -82,7 +82,7 @@ async function updateOrder(req, res) {
             _id,
             title,
             status,
-            createdAt: new Date(),
+            createdAt,
             price,
             buyer,
             seller,
