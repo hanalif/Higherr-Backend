@@ -28,19 +28,16 @@ function connectSockets(http, session) {
                 socket.leave(socket.myTopic)
             }
             socket.join(topic)
-                // logger.debug('Session ID is', socket.handshake.sessionID)
             socket.myTopic = topic
             socket.emit('chat-history', gHistoryMsgs[topic] || [])
         })
         socket.on('on typing', () => {
             socket.to(socket.myTopic).broadcast.emit('typing')
         })
-        socket.on('chat newMsg', msg => {
-            console.log('~ msg', msg)
-            console.log(msg, 'from chatnewmsg');
-            // emits to all sockets:
-            // gIo.emit('chat addMsg', msg)
-            // emits only to sockets in the same room
+        socket.on('chat newMsg', (msg, userId) => {
+            if (gHistoryMsgs[socket.myTopic]) {
+                gHistoryMsgs[socket.myTopic].push(msg);
+            } else gHistoryMsgs[socket.myTopic] = [msg]
             gIo.to(socket.myTopic).emit('chat addMsg', msg)
         })
         socket.on('user-watch', userId => {
