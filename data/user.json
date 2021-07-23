@@ -218,7 +218,7 @@
         "imgUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS2V0XCkHjYbLW3uy8osbkaWDGGOEuQnfJcuw&usqp=CAU",
         "about": "Hello! I started my career as an illustrator and artist in 2014. With my passion, skill, and my experiences, I'm here to make a high quality artwork for any purpose!.",
         "reviews": [{
-                "_id": "ZX2e3",
+                "_id": "Z52e3",
                 "createAt": 1626540887128,
                 "txt": "My band’s review far exceeded our expectations! If you are on the fence about using SBS, don’t be and just do it. What you get back in return is well worth the cost.",
                 "rate": 5,
@@ -397,7 +397,6 @@
     },
 
 
-<<<<<<< HEAD
 
     {
         "_id": ObjectId("60f582738400e7f9f56df3ff"),
@@ -451,59 +450,6 @@
                     "fullname": "Clode Deli",
                     "imgUrl": "https://i0.wp.com/post.medicalnewstoday.com/wp-content/uploads/sites/3/2020/03/GettyImages-1092658864_hero-1024x575.jpg?w=1155&h=1528"
                 }
-=======
-{
-    "_id" : ObjectId("60f582738400e7f9f56df3ff"),
-    "password" : "$2b$10$o7zCOMPQR0HVX.qknZeGNO95OIEd6hW0RRIURvvm7ws5R683V6pTq",
-    "fullname": "Roni Ron",
-    "username": "Roni",
-    "from": "England",
-    "memberSince": "May 2021",
-    "imgUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ2TRmnlIPn36w1HuBoXo7mreaRsINRXlhFWg&usqp=CAU",
-    "about": " I can create eye catching designs for everything from Business Cards to all your Business Branding I especially love to create covers for Albums, Podcasts, or Books! I'm happy to communicate with and to discuss all ideas with my clients ..so please feel free to get in touch!",
-    "reviews": [{
-            "_id": "ALs12",
-            "createAt": 1626538187128,
-            "txt": "Thank you for adding these songs to your rotation, Also, thank you for your kind words. One quick thing though, it is Giant in My Mind, not gentle. I am so glad you enjoy this tune. It is a very personal tune for me, to be able to share it and have it strike a chord with another means everything. Also, the promo page is awesome.",
-            "rate": 4,
-            "by": {
-                "_id": "60f582738400e7f9f56df3f8",
-                "fullname": "Yuli Potalov",
-                "imgUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQGa_HSPmOuXZjwVPe3iRFse3_ev61GED0hTg&usqp=CAU"
-            }
-        },
-        {
-            "_id": "11Ppo",
-            "createAt": 1626541100128,
-            "txt": "Order this gig with no hesitation, if you write catchy songs. You will receive proof of radio airplay. My single, Ever Since The Day, is number 2 in the charts, and that is endorsement of my skills as a song writer, and it's good publicity.",
-            "rate": 5,
-            "by": {
-                "_id": "60f582738400e7f9f56df3f0",
-                "fullname": "Ronit Rozen",
-                "imgUrl": "https://i2-prod.mirror.co.uk/incoming/article14334083.ece/ALTERNATES/s615/3_Beautiful-girl-with-a-gentle-smile.jpg"
-            }
-        },
-        {
-            "_id": "Klaa3",
-            "createAt": 1626541120128,
-            "txt": "The service was so good, I had a lot of fun using this service. Thank you very much I really aprecciate it. Just one thing, he took a little bit more time than garunteed but other than that the whole experience was nice. ",
-            "rate": 4,
-            "by": {
-                "_id": "60f582738400e7f9f56df3fa",
-                "fullname": "Dana Lim",
-                "imgUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS2V0XCkHjYbLW3uy8osbkaWDGGOEuQnfJcuw&usqp=CAU"
-            }
-        },
-        {
-            "_id": "KH566",
-            "createAt": 1626541156128,
-            "txt": "The very best radio airplay gig you will ever encounter. Professional in every way from beginning to end. I couldn't say enough good things about this experience, except to end with thank you.",
-            "rate": 5,
-            "by": {
-                "_id": "60f582738400e7f9f56df3fb",
-                "fullname": "Clode Deli",
-                "imgUrl": "https://i0.wp.com/post.medicalnewstoday.com/wp-content/uploads/sites/3/2020/03/GettyImages-1092658864_hero-1024x575.jpg?w=1155&h=1528"
->>>>>>> 8a74b2e036722a084fdb686798bfcce620f9cd20
             }
         ]
     }

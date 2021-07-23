@@ -67,8 +67,9 @@ async function createOrder(req, res){
             seller,
         }
         const newOrder = await orderService.add(order);
-        socketService.emitToAll({type: 'new-order', data: newOrder});
-        res.send(newOrder)
+        socketService.emitToUser({type: 'new-order', data: newOrder, userId: buyer._id });
+        socketService.emitToUser({type: 'new-order', data: newOrder, userId: seller._id });
+        res.send(newOrder);
     } catch (err) {
         logger.error('Failed to create order', err)
         res.status(500).send({ err: 'Failed to create order' })
