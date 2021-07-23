@@ -1,12 +1,15 @@
+
+
 const asyncLocalStorage = require('./als.service');
 const logger = require('./logger.service');
 
 var gIo = null
 var gSocketBySessionIdMap = {}
-var gHistoryMsgs = {}
 
 function connectSockets(http, session) {
-    gIo = require('socket.io')(http);
+    gIo = require('socket.io')(http, {
+        pingTimeout: 30000
+    });
 
     const sharedSession = require('express-socket.io-session');
 
@@ -15,35 +18,13 @@ function connectSockets(http, session) {
     }));
     gIo.on('connection', socket => {
         console.log('New socket - socket.handshake.sessionID', socket.handshake.sessionID)
-        gSocketBySessionIdMap[socket.handshake.sessionID] = socket
+        // gSocketBySessionIdMap[socket.handshake.sessionID] = socket
         socket.on('disconnect', socket => {
             console.log('Someone disconnected')
             if (socket.handshake) {
-                gSocketBySessionIdMap[socket.handshake.sessionID] = null
+                // gSocketBySessionIdMap[socket.handshake.sessionID] = null
             }
         })
-        socket.on('chat topic', topic => {
-            if (socket.myTopic === topic) return;
-            if (socket.myTopic) {
-                socket.leave(socket.myTopic)
-            }
-            socket.join(topic)
-            socket.myTopic = topic
-            socket.emit('chat-history', gHistoryMsgs[topic] || [])
-        })
-        socket.on('on typing', () => {
-            socket.to(socket.myTopic).broadcast.emit('typing')
-        })
-        socket.on('chat newMsg', (msg, userId) => {
-            if (gHistoryMsgs[socket.myTopic]) {
-                gHistoryMsgs[socket.myTopic].push(msg);
-            } else gHistoryMsgs[socket.myTopic] = [msg]
-            gIo.to(socket.myTopic).emit('chat addMsg', msg)
-        })
-        socket.on('user-watch', userId => {
-            socket.join(userId)
-        })
-
     })
 }
 
@@ -74,4 +55,5 @@ module.exports = {
     connectSockets,
     emitToAll,
     broadcast,
+    emitToUser
 }

@@ -66,7 +66,8 @@ async function createOrder(req, res){
             buyer,
             seller,
         }
-        const newOrder = await orderService.add(order)
+        const newOrder = await orderService.add(order);
+        socketService.emitToAll({type: 'new-order', data: newOrder});
         res.send(newOrder)
     } catch (err) {
         logger.error('Failed to create order', err)
@@ -91,7 +92,6 @@ async function updateOrder(req, res) {
         console.log(order)
         const savedOrder = await orderService.update(order)
         res.send(savedOrder)
-        // socketService.broadcast({type: 'order-updated', data: review, to:savedOrder._id})
     } catch (err) {
         logger.error('Failed to update order', err)
         res.status(500).send({ err: 'Failed to update order' })
