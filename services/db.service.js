@@ -1,5 +1,4 @@
 const MongoClient = require('mongodb').MongoClient
-// const uri = 'mongodb+srv://ben:1234@cluster0.62jro.mongodb.net/myFirstDatabase?retryWrites=true&w=majority'
 const config = require('../config')
 
 module.exports = {
@@ -21,15 +20,6 @@ async function getCollection(collectionName) {
         throw err
     }
 }
-
-// const client = new MongoClient(uri, {useNewUrlParser: true})
-// client.connect(err => {
-//     console.log('connected to mongo')
-//     const collection = client.db('HIGHER_DB').collection('gig')
-//     collection.find().toArray()
-//     .then(res => console.log(res))
-//     client.close()
-// });
 
 async function connect() {
     if (dbConn) return dbConn

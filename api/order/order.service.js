@@ -92,7 +92,7 @@ async function add(order) {
         // peek only updatable fields!
         const orderToAdd = {
             title: order.title,
-            createdAt: new Date(),
+            createdAt: order.createdAt,
             price: order.price,
             buyer: order.buyer,
             seller: order.seller,
