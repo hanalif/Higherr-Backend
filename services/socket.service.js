@@ -3,10 +3,11 @@ const logger = require('./logger.service');
 
 var gIo = null
 var gSocketBySessionIdMap = {}
-var gHistoryMsgs = {}
 
 function connectSockets(http, session) {
-    gIo = require('socket.io')(http);
+    gIo = require('socket.io')(http, {
+        pingTimeout: 30000
+    });
 
     const sharedSession = require('express-socket.io-session');
 
@@ -15,35 +16,32 @@ function connectSockets(http, session) {
     }));
     gIo.on('connection', socket => {
         console.log('New socket - socket.handshake.sessionID', socket.handshake.sessionID)
-        gSocketBySessionIdMap[socket.handshake.sessionID] = socket
-        socket.on('disconnect', socket => {
-            console.log('Someone disconnected')
-            if (socket.handshake) {
-                gSocketBySessionIdMap[socket.handshake.sessionID] = null
-            }
-        })
-        socket.on('chat topic', topic => {
-            if (socket.myTopic === topic) return;
-            if (socket.myTopic) {
-                socket.leave(socket.myTopic)
-            }
-            socket.join(topic)
-            socket.myTopic = topic
-            socket.emit('chat-history', gHistoryMsgs[topic] || [])
-        })
-        socket.on('on typing', () => {
-            socket.to(socket.myTopic).broadcast.emit('typing')
-        })
-        socket.on('chat newMsg', (msg, userId) => {
-            if (gHistoryMsgs[socket.myTopic]) {
-                gHistoryMsgs[socket.myTopic].push(msg);
-            } else gHistoryMsgs[socket.myTopic] = [msg]
-            gIo.to(socket.myTopic).emit('chat addMsg', msg)
-        })
-        socket.on('user-watch', userId => {
-            socket.join(userId)
-        })
 
+        if (socket.handshake) {
+            if (socket.handshake.session.user) {
+                socket.join(socket.handshake.session.user._id);
+            }
+            gSocketBySessionIdMap[socket.handshake.sessionID] = socket
+        }
+        socket.on('disconnect', socket => {
+                console.log('Someone disconnected')
+                if (socket.handshake) {
+                    if (socket.handshake.session.user) {
+                        socket.leave(socket.handshake.session.user._id);
+                    }
+                    gSocketBySessionIdMap[socket.handshake.sessionID] = null
+                }
+            }),
+            socket.on('user-watch', userId => {
+                socket.join('watching:' + userId)
+            })
+        socket.on('set-user-socket', userId => {
+            logger.debug(`Setting socket.userId = ${userId}`)
+            socket.userId = userId
+        })
+        socket.on('unset-user-socket', () => {
+            delete socket.userId
+        })
     })
 }
 
@@ -52,11 +50,28 @@ function emitToAll({ type, data, room = null }) {
     else gIo.emit(type, data)
 }
 
-// TODO: Need to test emitToUser feature
+
 function emitToUser({ type, data, userId }) {
-    gIo.to(userId).emit(type, data)
+    logger.debug('Emiting to user socket: ' + userId)
+    const socket = _getUserSocket(userId)
+    if (socket) socket.emit(type, data)
+    else {
+        console.log('User socket not found');
+        _printSockets();
+    }
 }
 
+function addUserSocketToRoom(socket, userId) {
+    socket.join(userId);
+}
+
+function removeUserSocketFromRoom(socket, userId) {
+    socket.leave(userId);
+}
+
+function getSocketBySessionId(sessionId) {
+    return gSocketBySessionIdMap[sessionId];
+}
 
 // Send to all sockets BUT not the current socket 
 function broadcast({ type, data, room = null }) {
@@ -69,9 +84,35 @@ function broadcast({ type, data, room = null }) {
     else excludedSocket.broadcast.emit(type, data)
 }
 
+function _getUserSocket(userId) {
+    const sockets = _getAllSockets();
+    const socket = sockets.find(s => s.userId == userId)
+    return socket;
+}
+
+function _getAllSockets() {
+    const socketIds = Object.keys(gIo.sockets.sockets)
+    const sockets = socketIds.map(socketId => gIo.sockets.sockets[socketId])
+    return sockets;
+}
+
+function _printSockets() {
+    const sockets = _getAllSockets()
+    console.log(`Sockets: (count: ${sockets.length}):`)
+    sockets.forEach(_printSocket)
+}
+
+function _printSocket(socket) {
+    console.log(`Socket - socketId: ${socket.id} userId: ${socket.userId}`)
+}
+
 
 module.exports = {
     connectSockets,
     emitToAll,
     broadcast,
+    emitToUser,
+    addUserSocketToRoom,
+    removeUserSocketFromRoom,
+    getSocketBySessionId
 }
