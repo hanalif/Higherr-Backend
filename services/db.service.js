@@ -7,8 +7,18 @@ module.exports = {
     getCollection
 }
 
+// function getCollection(collectionName) {
+//     const uri = "mongodb+srv://ben:benitzhak1234@cluster0.xpmjg.mongodb.net/HIGHERR_DB?retryWrites=true&w=majority";
+//     const client = new MongoClient(uri, { useNewUrlParser: true, useUnifiedTopology: true });
+//     client.connect(err => {
+//         const collection = client.db('HIGHERR_DB').collection(collectionName);
+//         collection.find().toArray()
+//             .then(res => console.log(res))
+//         client.close();
+//     });
+// }
 // Database Name
-const dbName = 'higher_db'
+const dbName = 'HIGHERR_DB'
 
 var dbConn = null
 
@@ -35,7 +45,3 @@ async function connect() {
         throw err
     }
 }
-
-
-
-

@@ -1,5 +1,3 @@
-
-
 const asyncLocalStorage = require('./als.service');
 const logger = require('./logger.service');
 
@@ -18,7 +16,7 @@ function connectSockets(http, session) {
     }));
     gIo.on('connection', socket => {
         console.log('New socket - socket.handshake.sessionID', socket.handshake.sessionID)
-          
+
         if (socket.handshake) {
             if (socket.handshake.session.user) {
                 socket.join(socket.handshake.session.user._id);
@@ -26,17 +24,17 @@ function connectSockets(http, session) {
             gSocketBySessionIdMap[socket.handshake.sessionID] = socket
         }
         socket.on('disconnect', socket => {
-            console.log('Someone disconnected')
-            if (socket.handshake) {
-                if (socket.handshake.session.user) {
-                    socket.leave(socket.handshake.session.user._id);
+                console.log('Someone disconnected')
+                if (socket.handshake) {
+                    if (socket.handshake.session.user) {
+                        socket.leave(socket.handshake.session.user._id);
+                    }
+                    gSocketBySessionIdMap[socket.handshake.sessionID] = null
                 }
-                gSocketBySessionIdMap[socket.handshake.sessionID] = null
-            }
-        }),
-        socket.on('user-watch', userId => {
-            socket.join('watching:' + userId)
-        })
+            }),
+            socket.on('user-watch', userId => {
+                socket.join('watching:' + userId)
+            })
         socket.on('set-user-socket', userId => {
             logger.debug(`Setting socket.userId = ${userId}`)
             socket.userId = userId
@@ -91,6 +89,7 @@ function _getUserSocket(userId) {
     const socket = sockets.find(s => s.userId == userId)
     return socket;
 }
+
 function _getAllSockets() {
     const socketIds = Object.keys(gIo.sockets.sockets)
     const sockets = socketIds.map(socketId => gIo.sockets.sockets[socketId])
@@ -102,6 +101,7 @@ function _printSockets() {
     console.log(`Sockets: (count: ${sockets.length}):`)
     sockets.forEach(_printSocket)
 }
+
 function _printSocket(socket) {
     console.log(`Socket - socketId: ${socket.id} userId: ${socket.userId}`)
 }
