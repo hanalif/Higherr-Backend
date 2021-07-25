@@ -105,7 +105,7 @@ async function add(user) {
             about: user.about,
             from: user.from,
             imgUrl: user.imgUrl,
-            memberSince: date.getFullYear(),
+            memberSince: new Date().getFullYear(),
             reviews: user.reviews || [],
             skills: user.skills || []
         }
