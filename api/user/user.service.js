@@ -1,4 +1,3 @@
-
 const dbService = require('../../services/db.service')
 const logger = require('../../services/logger.service')
 
@@ -21,8 +20,8 @@ async function query(filterBy = {}) {
         users = users.map(user => {
             delete user.password
             user.createdAt = ObjectId(user._id).getTimestamp()
-            // Returning fake fresh data
-            // user.createdAt = Date.now() - (1000 * 60 * 60 * 24 * 3) // 3 days ago
+                // Returning fake fresh data
+                // user.createdAt = Date.now() - (1000 * 60 * 60 * 24 * 3) // 3 days ago
             return user
         })
         return users
@@ -80,11 +79,11 @@ async function update(user) {
             fullname: user.fullname,
             skills: user.skills,
             about: user.about,
-            from:user.from,
+            from: user.from,
             imgUrl: user.imgUrl,
             memberSince: user.memberSince,
             reviews: user.reviews
-            
+
             // isAdmin:user.isAdmin
         }
         const collection = await dbService.getCollection('user')
@@ -104,7 +103,7 @@ async function add(user) {
             password: user.password,
             fullname: user.fullname,
             about: user.about,
-            from:user.from,
+            from: user.from,
             imgUrl: user.imgUrl,
             memberSince: date.getFullYear(),
             reviews: user.reviews || [],
@@ -123,8 +122,7 @@ function _buildCriteria(filterBy) {
     const criteria = {}
     if (filterBy.txt) {
         const txtCriteria = { $regex: filterBy.txt, $options: 'i' }
-        criteria.$or = [
-            {
+        criteria.$or = [{
                 username: txtCriteria
             },
             {
@@ -137,5 +135,3 @@ function _buildCriteria(filterBy) {
     }
     return criteria
 }
-
-
