@@ -71,7 +71,7 @@
         "summary": "Fully reponsive Wordpress website with up to 5 pages. Constant contact between the seller and buyer for the whole proccess.",
         "jobDescription": "Hello there, My name is Muki Levi, a Senior Web Developer in website development 24/7. Why choose me? I have experience with a large range of projects in Wordpress, including but not limited to a business website, blog, e-commerce, agency, directory listing, job portal, real estate and many more. I work with a focus on Standard, Aesthetics, and Professionalism to deliver the right product for your business.",
         "tags": [
-            "web-develop"
+            "web-development"
         ],
         "seller": {
             "_id": "60f582738400e7f9f56df3f9",
@@ -231,8 +231,7 @@
         "title": "I will design flyer, poster, postcard or any other graphics",
         "imgUrls": [
             "https://gripdesign.com/wp-content/uploads/2020/04/IMG_4022-copy.jpg",
-            "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQjQNrObIvEddkkrpJV1n8xndWg-jFzkUe4ew&usqp=CAU",
-
+            "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQjQNrObIvEddkkrpJV1n8xndWg-jFzkUe4ew&usqp=CAU"
         ],
         "price": 119.00,
         "delivery": 6,
@@ -280,7 +279,7 @@
         "summary": "A fully functioning desktop application created with python. Multiple revisions included and fluent workflow for the whole 1 month proccess.",
         "jobDescription": "Hi I am a Computer Science Engineering degree holder with more than 4 years of experience in python. I have completed a huge number of python related projects using various python libraries.",
         "tags": [
-            "web-develop"
+            "web-development"
         ],
         "seller": {
             "_id": "60f582738400e7f9f56df3f2",
@@ -303,7 +302,7 @@
         "summary": "Web design and development customized to your liking. Personal revisions all along the way. 100% satisfaction gauranteed.",
         "jobDescription": "I design and build only custom websites with attention to your customers' needs. I strive for minimal aesthetics and modern visuals but make it easy to use. I don't use templates and don't do fast design.",
         "tags": [
-            "web-develop"
+            "web-development"
         ],
         "seller": {
             "_id": "60f582738400e7f9f56df3f1",
