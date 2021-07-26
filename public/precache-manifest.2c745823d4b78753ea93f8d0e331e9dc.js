@@ -1,7 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "114d322789fb8b058122",
-    "url": "/css/app.095eed11.css"
+    "revision": "1203164b48fe08dbf25bd67b1b245738",
+    "url": "/Thumbs.db"
+  },
+  {
+    "revision": "04227fd86422d27b253d",
+    "url": "/css/app.a539318e.css"
   },
   {
     "revision": "72ff9bdb03a89852b939",
@@ -32,6 +36,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/fonts/macan-regular-92412b97c2a1e21c95ba8d938a2c55df.3d263b5d.woff2"
   },
   {
+    "revision": "e3b049ebd98e5f530ac73b95a9a27130",
+    "url": "/img/five-stars.e3b049eb.png"
+  },
+  {
     "revision": "017065d8e5a2b18240afbf1c6415bb5f",
     "url": "/img/hero1.017065d8.png"
   },
@@ -48,16 +56,20 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/img/star.8dbfa308.jpg"
   },
   {
-    "revision": "9aee2fda781a98babe090aa5feed720a",
+    "revision": "98158980f3735098685c2a8245e6c5a7",
     "url": "/index.html"
   },
   {
-    "revision": "114d322789fb8b058122",
-    "url": "/js/app.eb4cef75.js"
+    "revision": "04227fd86422d27b253d",
+    "url": "/js/app.eddcaf9c.js"
   },
   {
     "revision": "72ff9bdb03a89852b939",
     "url": "/js/chunk-vendors.90121e32.js"
+  },
+  {
+    "revision": "15a8e3e554c2401940877713c7d95c7a",
+    "url": "/logo.png"
   },
   {
     "revision": "4b14c64efaf846819b9a229b4193c8b7",
