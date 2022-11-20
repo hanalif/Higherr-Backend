@@ -1,5 +1,5 @@
 ## Higherr 
-An online marketplace for freelance services. This project was built with Vue, NodeJs, Scss, MongoDB and more.
+The backend of an online marketplace for freelance services. This project was built with Vue, NodeJs, Scss, MongoDB and more.
 
 ## Link
 http://higherr.herokuapp.com/#/
