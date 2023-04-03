@@ -1,8 +1,8 @@
 ## Higherr 
 The backend of an online marketplace for freelance services. This project was built with Vue, NodeJs, Scss, MongoDB and more.
 
-## Link
-http://higherr.herokuapp.com/#/
+## Demo
+
 
 ## Contact Me
 [![Gmail Badge](https://img.shields.io/badge/-hanalif619-c14438?style=social&logo=Gmail&logoColor=red&link=mailto:hanalif619@gmail.com)](mailto:hanalif619@gmail.com)
